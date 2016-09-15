@@ -1,5 +1,3 @@
-var path = require('path');
-
 function stripNode(node, path, removeNode) {
   if (node.type === 'CallExpression' &&
     node.callee &&
@@ -57,7 +55,7 @@ function stripHeimdall(babel) {
 }
 
 stripHeimdall.baseDir = function() {
-  return path.join(__dirname, '..');
+  return __dirname;
 };
 
 module.exports = stripHeimdall;

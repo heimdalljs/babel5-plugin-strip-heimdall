@@ -1,6 +1,6 @@
 {
   "name": "babel5-plugin-strip-heimdall",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Strips heimdall instrumentation from babel output",
   "main": "index.js",
   "keywords": [
