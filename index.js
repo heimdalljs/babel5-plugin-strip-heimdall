@@ -15,7 +15,7 @@ function stripNode(node, path, removeNode) {
 
       // strips `heimdall.stop(token);` within switch statements
     } else if (path.type === 'SwitchCase' && path.consequent && path.consequent.length) {
-      let index = path.consequent.indexOf(removeNode);
+      var index = path.consequent.indexOf(removeNode);
 
       if (index !== -1) {
         path.consequent.splice(index, 1);
