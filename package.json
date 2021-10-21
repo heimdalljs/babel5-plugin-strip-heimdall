@@ -7,6 +7,10 @@
     "babel",
     "babel-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heimdalljs/babel5-plugin-strip-heimdall.git"
+  },
   "author": "Chris Thoburn",
   "license": "MIT"
 }
